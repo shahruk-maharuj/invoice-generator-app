@@ -1,4 +1,5 @@
 "use client";
+import InvoiceForm from "@/components/invoice-form";
 import InvoicePreview from "@/components/invoice-preview";
 import { Button } from "@/components/ui/button";
 import { Eye } from "lucide-react";
@@ -25,6 +26,7 @@ export default function Home() {
             Show Preview
           </Button>
         </div>
+        <InvoiceForm />
       </div>
     </div>
   );
